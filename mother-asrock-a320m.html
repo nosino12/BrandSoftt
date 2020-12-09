@@ -10,7 +10,7 @@
 </head>
 <body>
     <!--------- AQUI EMPIEZA EL HEADER ------------------------>
-    <header>
+   <!--  <header>
 <div class="informacion">
     <div class="container">
         <div class="row">
@@ -32,9 +32,9 @@
         </div>
     </div>
 </div>
-</header>
+</header> -->
       <!--------- AQUI EMPIEZA EL NAVBAR ----------------->
-    <nav>
+    <!-- nav>
         <div class="logo">
             <a href="#"><img src="./images/logo.png" alt=""></a>
         </div>
@@ -45,23 +45,47 @@
                  <li><a href="#">Inicia sesion</a></li>
             </ul>
         </div>
-    </nav>
+    </nav> -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#">Disabled</a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form>
+        </div>
+      </nav>
 
     <!----- aqui Termina el navbar ------->
     
     <!-- comienza la descripcion del Productos -->
-    
-    <div class="cont air-v">
+     <div class="cont"> 
+        <div class="temp-1-3 air-v">
         <div class="product">
         <div class="img air">
             <div class="featured">
-                <img src="./images/mother-asrock-a320mhdv-de descripcion.jpg" alt="">
+                <img src="./images/mother-asrock-a320mhdv-de descripcion.jpg" alt="" style="width: 100%;">
             </div>
             <div class="more">
-                <div class="item"><img src="./images/mother-asrock-a320mhdv-image-1.jpg" alt=""></div>
-                <div class="item"><img src="./images/mother-asrock-a320mhdv-image-2.jpg" alt=""></div>
-                <div class="item"><img src="./images/mother-asrock-a320mhdv-image-3.jpg" alt=""></div>
-                <div class="item"><img src="./images/mother-asrock-a320mhdv-image-4.jpg" alt=""></div>
+                <div class="item"><img src="./images/mother-asrock-a320mhdv-image-1.jpg" alt="" style="width: 100%;"></div>
+                <div class="item"><img src="./images/mother-asrock-a320mhdv-image-2.jpg" alt="" style="width: 100%;"></div>
+                <div class="item"><img src="./images/mother-asrock-a320mhdv-image-3.jpg" alt="" style="width: 100%;"></div>
+                <div class="item"><img src="./images/mother-asrock-a320mhdv-image-4.jpg" alt="" style="width: 100%;"></div>
             </div>
             <div class="shipping">LAS IMAGENES SON AL EFECTO MERAMENTE ILUSTRATIVO Y NO SON CONTRACTUALES</div>
         </div>
@@ -79,11 +103,11 @@
                 <img src="./images/mercadopago.png" alt="">
             </div>
             <div class="tags">
-                <span class="tag.tag-stock">En stock</span>
+                <span class="tag-stock">En stock</span>
             </div>
             <div class="ctas">
-                <div class="item"><a href="#">Agregar</a></div>
-                <div class="item"><a href="#">Comprar ahora</a></div>
+                <div class="item"><a class="btn-outline" href="#">Agregar</a></div>
+                <div class="item"><a class="btn-accent" href="#">Comprar ahora</a></div>
             </div>
             <div class="meta-tags">
                 <a href="#">mother</a>
@@ -174,13 +198,351 @@
         <div class="also air">
             <h2>Productos Relacionados</h2>
             <div class="also-products">
-                <div class="item product-xs"></div>
-                <div class="item product-xs"></div>
-                <div class="item product-xs"></div>
-                <div class="item product-xs"></div>
+                <div class="item product-xs">
+                    <a href="">
+                        <div class="image">
+                            <img src="./images/also-air-1.jpg" alt="">
+                        </div>
+                        <div class="info">
+                            <h3 class="tituloalto" style="height: 55px;">Mother Gigabyte GA-AB350 GAMING 3</h3>
+                            <div class="price">
+                                $9610
+                                <span class="price-promo">$11752</span>
+                            </div>
+                            <div class="cta">
+                                Agregar
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="item product-xs">
+                    <a href="">
+                        <div class="image">
+                            <img src="./images/also-air-2.jpg" alt="">
+                        </div>
+                        <div class="info">
+                            <h3 class="tituloalto" style="height: 55px;">MOTHER ASUS A320M-K AM4</h3>
+                            <div class="price">
+                                $7087
+                                <span class="price-promo">$8798</span>
+                            </div>
+                            <div class="cta">
+                                Agregar
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="item product-xs">
+                    <a href="">
+                        <div class="image">
+                            <img src="./images/also-air-3.jpg" alt="">
+                        </div>
+                        <div class="info">
+                            <h3 class="tituloalto" style="height: 55px;">MOTHER GIGABYTE GA-A320M-S2HAM4</h3>
+                            <div class="price">
+                                $7412
+                                <span class="price-promo">$8898</span>
+                            </div>
+                            <div class="cta">
+                                Agregar
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="item product-xs">
+                    <a href="">
+                        <div class="image">
+                            <img src="./images/also-air-4.jpg" alt="">
+                        </div>
+                        <div class="info">
+                            <h3 class="tituloalto" style="height: 55px;">MOTHER ASUS X470 PLUS TUF</h3>
+                            <div class="price">
+                                $25123
+                                <span class="price-promo">$30894</span>
+                            </div>
+                            <div class="cta">
+                                Agregar
+                            </div>
+                        </div>
+                    </a>
+                </div>
             </div>
         </div>
-        <div class="faq air"></div>
+        <div class="faq air">
+            <h2>Preguntas Frecuentes</h2>
+            <div class="item">
+                <button class="faq-opener">
+                    <h2>Que memorias puedo utilizar con MOTHER ASROCK A320M-HDV</h2>
+                </button>
+                <div class="faq-info" style="display: none;">
+                <div class="faq-flex">
+                    <div class="item product-xs">
+                         <a href="">
+                             <div class="image">
+                                 <img src="./images/memoria-1.jpg" alt="">
+                             </div>
+                             <div class="info">
+                                 <h3>Memoria 4GB DDR4 2666 CRUCIAL</h3>
+                                 <div class="price">
+                                     $1964
+                                     <span class="price-promo">$2398</span>
+                                 </div>
+                                 <div class="cta">Agregar</div>
+                             </div>
+                         </a>
+                    </div>
+                    <div class="item product-xs">
+                        <a href="">
+                            <div class="image">
+                                <img src="./images/memoria-2.jpg" alt="">
+                            </div>
+                            <div class="info">
+                                <h3> MEMORIA 4GB DD4 2666 ADATA</h3>
+                                <div class="price">
+                                    $2030
+                                    <span class="price-promo">$2477</span>
+                                </div>
+                                <div class="cta">Agregar</div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="item product-xs">
+                        <div class="image">
+                            <img src="./images/memoria-3.jpg" alt="">
+                        </div>
+                        <div class="info">
+                            <h3>MEMORIA 4GB DDR4 2400 CORSAIR VALUE</h3>
+                            <div class="price">
+                                $2200
+                                <span class="price-promo">$2586</span>
+                            </div>
+                            <div class="cta">Agregar</div>
+                        </div>
+                    </div>
+                    <div class="item product-xs">
+                        <div class="image">
+                            <img src="./images/memoria-4.jpg" alt="">
+                        </div>
+                        <div class="info">
+                            <h3> MEMORIA 4GB DDR4 2666 KINGSTON</h3>
+                            <div class="price">
+                                $2126
+                                <span class="price-promo">$2539</span>
+                            </div>
+                            <div class="cta">Agregar</div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+            <div class="item">
+                <button class="faq-opener">
+                    <h2>Que CPU puedo utilizar con MOTHER ASROCK A320M-HDV</h2>
+                </button>
+                <div class="faq-info" style="display: none;">
+                <div class="faq-flex">
+                    <div class="item product-xs">
+                         <a href="">
+                             <div class="image">
+                                 <img src="./images/procesador-1.jpg" alt="">
+                             </div>
+                             <div class="info">
+                                 <h3></h3>
+                                 <div class="price">
+                                     $4920.00
+                                     <span class="price-promo">$6000.00</span>
+                                 </div>
+                                 <div class="cta">Agregar</div>
+                             </div>
+                         </a>
+                    </div>
+                    <div class="item product-xs">
+                        <a href="">
+                            <div class="image">
+                                <img src="./images/procesador-2.jpg" alt="">
+                            </div>
+                            <div class="info">
+                                <h3></h3>
+                                <div class="price">
+                                    $6790.00
+                                    <span class="price-promo">$8284.00</span>
+                                </div>
+                                <div class="cta">Agregar</div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="item product-xs">
+                        <div class="image">
+                            <img src="./images/procesador-3.jpg" alt="">
+                        </div>
+                        <div class="info">
+                            <h3></h3>
+                            <div class="price">
+                                $7490.00
+                                <span class="price-promo">$9138.00</span>
+                            </div>
+                            <div class="cta">Agregar</div>
+                        </div>
+                    </div>
+                    <div class="item product-xs">
+                        <div class="image">
+                            <img src="./images/procesador-4.jpg" alt="">
+                        </div>
+                        <div class="info">
+                            <h3></h3>
+                            <div class="price">
+                                $9200.00
+                                <span class="price-promo">$1121.00</span>
+                            </div>
+                            <div class="cta">Agregar</div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+            <div class="item">
+                <button class="faq-opener">
+                    <h2>Que gabinete puedo utilizar con MOTHER ASROCK A320M-HDV</h2>
+                </button>
+                <div class="faq-info" style="display: none;">
+                <div class="faq-flex">
+                    <div class="item product-xs">
+                         <a href="">
+                             <div class="image">
+                                 <img src="./images/gabinete-1.jpg" alt="">
+                             </div>
+                             <div class="info">
+                                 <h3></h3>
+                                 <div class="price">
+                                     $4327.00
+                                     <span class="price-promo">$5280.00</span>
+                                 </div>
+                                 <div class="cta">Agregar</div>
+                             </div>
+                         </a>
+                    </div>
+                    <div class="item product-xs">
+                        <a href="">
+                            <div class="image">
+                                <img src="./images/gabinete-2.jpg" alt="">
+                            </div>
+                            <div class="info">
+                                <h3></h3>
+                                <div class="price">
+                                    $7051.00
+                                    <span class="price-promo">$8201.00</span>
+                                </div>
+                                <div class="cta">Agregar</div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="item product-xs">
+                        <div class="image">
+                            <img src="./images/gabinete-3.jpg" alt="">
+                        </div>
+                        <div class="info">
+                            <h3></h3>
+                            <div class="price">
+                                $8060.00
+                                <span class="price-promo">
+                                    $9838.00
+                                </span>
+                            </div>
+                            <div class="cta">Agregar</div>
+                        </div>
+                    </div>
+                    <div class="item product-xs">
+                        <div class="image">
+                            <img src="./images/gabinete-4.jpg" alt="">
+                        </div>
+                        <div class="info">
+                            <h3></h3>
+                            <div class="price">
+                                $8069.00
+                                <span class="price-promo"></span>
+                            </div>
+                            <div class="cta">Agregar</div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
     </div>
     </div>
+
+    
+    <footer>
+        <div class="cont">
+            <ul id="footer-menu">
+                <li>
+                    <a href="#">Florida 537 Local 000 (CABA)</a>
+                </li>
+                <li>
+                    <a href="#">Para comprar:Ventas@agus.com.ar</a>
+                </li>
+                <li>
+                    <a href="#">Atencion al cliente:agusmazzz@hotmail.com</a>
+                </li>
+                <li>
+                    <a href="#">(54)1164481744</a>
+                </li>
+                <li>
+                    <a href="#">whatsapp(1164481744)</a>
+                </li>
+                <li>
+                    <a href="#">Nosotros</a>
+                </li>
+                <li>
+                    <a href="#">Servicio al cliente</a>
+             </li>
+             <li>
+                 <a href="#">Condiciones de uso</a>
+             </li>
+             <li>
+                 <a href="#">Politicia de Garantia</a>
+             </li>
+             <li>
+                 <a href="#">Como comprar</a>
+             </li>
+             <li>
+                 <a href="#">Envios</a>
+             </li>
+             <li>
+                 <a href="#">Preguntas Frecuentes</a>
+             </li>
+             <li>
+                 <a href="#">Contactanos</a>
+             </li>
+             <li>
+                 <a href="#">Instagram</a>
+             </li>
+             <li>
+                 <a href="#">Facebook</a>
+             </li>
+             <li>
+                 <a href="#">Twitter</a>
+             </li>
+             <li>
+                 <a href="#">YouTube</a>
+             </li>
+            </ul>
+            <div class="disclaimer">
+                <div class="item">
+                    <a href="#">
+                        <img src="./images/DATAWEB.jpg" alt="">
+                    </a>
+                </div>
+                <div class="item-2">
+                    <span>Última fecha de actualización de DATA FISCAL 30 / 04 / 2017 IMPORTANTE: Todas las imágenes de los productos son sólo a modo ilustrativo y pueden diferir del artículo en stock. Los precios indicados tienen IVA incluído y pueden sufrir variaciones sin previo aviso. Disponibilidad sujeta a stock.</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <!------------- scripts -------------->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
 </body>
